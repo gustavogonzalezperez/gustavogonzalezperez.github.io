@@ -1,0 +1,444 @@
+body {
+    margin: 0px;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    background-color: #F0EBDF;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a {
+    text-decoration: none;
+
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.menu-button-container {
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+.header { 
+    padding: 30px;
+    background-color: #F0EBDF;
+}
+
+.logo-pos {
+
+    padding-left: 57px;
+    width: 76px;
+
+}
+
+.center {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    text-align: left;
+    word-spacing: 70px;
+    min-width: 756px;
+    font-weight: bold;
+}
+
+.left {
+
+}
+
+.text {
+    color: #A44A3F;
+    font-size: 18px;
+
+}
+.text2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text3 {
+    color: #A44A3F;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.order-button {
+    padding: 14px 25px;
+    background-color: #A44A3F;
+    border-radius: 50px;
+}
+
+.large-image {
+    position: relative;
+    background-image: url("../Images/Large\ Image.png");
+    background-size: cover;
+    height: 619px;
+    background-position: 100%;
+}
+
+.hero-text {
+    margin: none;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 25px;
+    max-width: none;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translateX(-47.5%);
+
+}
+
+.hero-subtext {
+    text-shadow: 0px 0px 20px #1D1D1D;
+    font-weight: 550;
+    
+    
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    max-width: none;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button-pos {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.order-button-2 {
+    padding: 14px 30px;
+    background-color: #A44A3F;
+    border-radius: 100px;
+    color: #ffffff;
+    box-shadow: 0px 0px 15px #1D1D1D;
+
+}
+
+.sec2alignA {
+    text-align: center;
+}
+
+.sec2alignB {
+    text-align: center;
+}
+
+.sec2alignC {
+    text-align: center;
+}
+
+.sec2text {
+    color: #A44A3F;
+    height: 619px;
+    width: 100%;
+    position: relative;
+
+}
+
+.sec2textpos {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+    width: 320px;
+}
+.sec2text2pos {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.Hours {
+ 
+    font-size: 25px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:normal;
+    height: auto;
+    max-width: 100%;
+}
+
+.margin {
+    margin-bottom: 70px;
+}
+
+
+.subject {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.copy {
+    font-size: 18px;
+    word-spacing: 7px;
+}
+
+.spacing {
+
+    color: #A44A3F;
+    font-weight:bold;
+}
+
+.res {
+    font-style: oblique;
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+.Restaurant {
+    text-align: center;
+    margin-top: 85.5px;
+    padding-left: 107.75px
+}
+
+.textmove {
+    margin-left: 20%;
+}
+
+.textmove2 {
+    margin-left: 20%;
+    }
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    position: relative;
+    max-width: 100%;
+}
+
+.sec3text {
+    color: #A44A3F;
+    height: 619px;
+    width: 350px;
+    position: relative;
+    line-height: 50px;
+}
+
+.sec3textpos {
+    position: absolute;
+    transform: translateY(50%) translateX(25%);
+    text-align: center;
+
+}
+
+.sec3copy {
+    width: 600px;
+}
+
+.circle-portrait {
+    width: 400px;
+    margin-left: 275.75px;
+
+}
+
+.subject2 {
+    font-size: 40px;
+    font-weight: bold;
+    color:#A44A3F;
+    margin-left: 15;
+}
+
+.footer {
+    text-decoration: none;
+    width: auto;
+    background-color: #A44A3F;
+    height: 100%;
+}
+
+.footer1 {
+    position: relative;
+}
+
+.ftext {
+    padding-left: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.logo-pos1 {
+    width: 76px;
+    position:absolute;
+    padding-left: 57px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 648px) {
+ 
+ 
+
+    #close-menu {
+        background-color: #8cb958;
+        color: #ffffff;
+        padding: 10px;
+    }
+
+    .bmenu {
+        display: block;
+        padding: 10px;
+        background-color: #baf377;
+        color: #ffffff;
+    }
+
+    .bmenu2 {
+        display: block;
+        padding: 10px;
+        background-color: #8cb958;
+        color: #ffffff;
+    }
+ 
+ 
+    #mobile-nav {
+    display: fixed block;
+    top: 0;
+    left: 0;
+   }
+
+    .nav {
+        display: none; /* Hide regular menu */
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+   .header {
+    padding: 20px;
+   }
+
+    #menu {
+        display: inline-block;
+        text-align: right;
+
+    }
+   
+    .hero-text {
+        font-size: 30px;
+        top: 30%;
+
+    }
+    .hero-subtext {
+        font-size: 12px;
+        top: 45%;
+    }
+    .large-image {
+        min-width: 100%;
+    }
+    .nav {
+        display: none;
+    }
+    .logo-pos {
+        padding: 0;
+        text-align: left;
+        width: 60px;
+    }
+    .large-image {
+        text-align: center;
+        max-width: 375px;
+    }
+    .Restaurant {
+        max-width: 375px;
+        text-align: center;
+        padding: 0px;
+    }
+    .grid-container2 {
+        grid-template-columns: 1fr 1fr;
+        height: fit-content;
+        width: 648px;
+    }
+    
+    .SEC2A {
+        margin-top: 125px;
+        margin-left: 27.5px;
+    }
+
+    .SEC2B {
+        margin-top: 480px;
+        margin-left: 112.5px; 
+    }
+    .copy {
+        font-size: 12px;
+    }
+    .subject {
+        font-size: 24px;
+    }
+    .res {
+        font-size: 12px;
+    }
+    .textmove {
+        margin: 20px 0 0 0;
+    }
+
+    .linespacecon {
+        line-height: 35px;
+        width: 150px;
+    }
+    .grid-container3 {
+        margin-top: 125px;
+    }
+    .sec3textpos {
+        transform: translateY(50%) translateX(0%);
+    }
+
+    .subject2 {
+        font-size: 24px;
+        margin-left: 25px;
+    }
+
+    .sec3copy {
+        width: auto;
+        text-align: justify;
+        margin-left: 25px;
+        word-spacing: normal;
+    }
+
+    .circle-portrait {
+        width: 150px;
+        margin-left: -242.5px;
+        margin-top: 350px;
+    }
+
+    .ftext {
+        font-size: 10px;
+        padding-right: 10px;
+    }
+
+    .logo-pos1 {
+        padding-left: 10px;
+        width: 60px;
+    }
+    .menu {
+        margin-left: 320px;
+    }
+}
