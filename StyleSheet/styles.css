@@ -4,7 +4,7 @@ body {
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
-    background-color: #F0EBDF;
+    background-color: #1D1D1D;
 }
 
 html {
@@ -31,7 +31,7 @@ a {
 
 .header { 
     padding: 30px;
-    background-color: #F0EBDF;
+    background-color: #1D1D1D;
 }
 
 .logo-pos {
@@ -58,25 +58,25 @@ a {
 }
 
 .text {
-    color: #A44A3F;
+    color: white;
     font-size: 18px;
 
 }
 .text2 {
-    color: #ffffff;
+    color: #1D1D1D;
     font-size: 18px;
     font-weight: bold;
 }
 
 .text3 {
-    color: #A44A3F;
+    color: white;
     font-size: 18px;
     font-weight: bold;
 
 }
 .order-button {
     padding: 14px 25px;
-    background-color: #A44A3F;
+    background-color: #baf377;
     border-radius: 50px;
 }
 
@@ -126,7 +126,7 @@ a {
 
 .order-button-2 {
     padding: 14px 30px;
-    background-color: #A44A3F;
+    background-color: #baf377;
     border-radius: 100px;
     color: #ffffff;
     box-shadow: 0px 0px 15px #1D1D1D;
@@ -146,7 +146,7 @@ a {
 }
 
 .sec2text {
-    color: #A44A3F;
+    color: white;
     height: 619px;
     width: 100%;
     position: relative;
@@ -196,7 +196,7 @@ a {
 
 .spacing {
 
-    color: #A44A3F;
+    color: #baf377;
     font-weight:bold;
 }
 
@@ -229,7 +229,7 @@ a {
 }
 
 .sec3text {
-    color: #A44A3F;
+    color: white;
     height: 619px;
     width: 350px;
     position: relative;
@@ -256,14 +256,15 @@ a {
 .subject2 {
     font-size: 40px;
     font-weight: bold;
-    color:#A44A3F;
+    color:#baf377;
     margin-left: 15;
 }
 
 .footer {
     text-decoration: none;
     width: auto;
-    background-color: #A44A3F;
+    background-color: #baf377;
+    text-align: right;
     height: 100%;
 }
 
@@ -272,10 +273,10 @@ a {
 }
 
 .ftext {
-    padding-left: 80%;
+    padding-right: 139px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #ffffff;
+    color: #1D1D1D;
     font-weight: 400;
 }
 
